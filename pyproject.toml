@@ -1,0 +1,17 @@
+[project]
+name = "banco-talendig"
+version = "1.0.0"
+description = "API educativa de solicitudes bancarias con FastAPI, SQLite e IA"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "sqlalchemy>=2.0.0",
+    "pydantic>=2.8.0",
+    "python-dotenv>=1.0.0",
+    "openai>=1.40.0",
+    "google-genai>=2.33.0",
+]
+[tool.uv]
+package = false
